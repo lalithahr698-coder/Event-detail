@@ -1,0 +1,95 @@
+body{
+    text-align: justify;
+    background-color: rgb(132, 129, 189);
+}
+.container{
+    width: 150;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(127, 173, 183);
+    text-align: left;
+    border-radius: 5px;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    border: 2px solid white;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(234, 123, blue, alpha);
+    text-align: left;
+    justify-content: left;
+}
+h1{
+    color: black;
+    margin: 10px 0 5px;
+    font-size: 25px;
+}
+.club{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+#about{
+    width: 350;
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    text-align: justify;
+    border-radius: 12px;
+}
+#timeline{
+       width: 350;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(211, 166, 202);
+    text-align: justify;
+    border-radius: 12px;
+    font-size: medium;
+    font-style: italic;
+}
+#TeamMembers{
+     width: 350;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(166, 209, 211);
+    text-align: justify;
+    border-radius: 12px;
+    font-size: medium;
+    font-style: italic;
+}
+#RegistrationFrom{
+     width: 250;
+     height: 250;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(211, 182, 166);
+    text-align: justify;
+    border-radius: 12px;
+    font-size: medium;
+    font-style: italic;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(189, 115, 184);   
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.5s background-color 0.3s;
+}
+button:hover {
+    background-color: blue;
+    transform: scale(1.1); /when you hover on button the button will be enlarged/
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+}
